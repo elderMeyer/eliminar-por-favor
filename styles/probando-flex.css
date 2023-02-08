@@ -1,0 +1,44 @@
+/* GLOBALS */
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+body{
+    background: #010D26;
+}
+
+.back{text-decoration: none;color: #F2CB9B;font-size: 20px;position: absolute;right: 0;background-color: #010D26;border: 2px solid transparent;margin: 10px 0;padding: 5px;text-transform: capitalize;transition: all 300ms;}
+.back:hover{color:#4E9DA6;border-bottom: 2px dashed #4E9DA6;}
+
+/* C O N T E N I D O   D E   F L E X */
+
+.flex-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex-item{
+    background: #248;
+    color: white;
+    min-width: 150px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    flex: 1;            /*shorthand: grow-basis-shrink*/
+}                       
+
+.blue{
+    order: 20;
+}
+
+.orange{
+    background: orange;
+    flex: 1 0 350px;    /*grow: espacio repartido entre elementos, basis: width, shrink: espácio sedido*/
+    order: 50;          /*similar a z index, este se ubica en x o y, en e main o cross axis*/
+}
+
+.green{
+    background: green;
+}

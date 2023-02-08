@@ -1,0 +1,10 @@
+/* GLOBALS */
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.back{text-decoration: none;color: #F2CB9B;font-size: 20px;position: absolute;right: 0;background-color: #010D26;border: 2px solid transparent;margin: 10px 0;padding: 5px;text-transform: capitalize;transition: all 300ms;}
+.back:hover{color:#4E9DA6;border-bottom: 2px dashed #4E9DA6;}
+
+/* CONTENT */
